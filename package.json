@@ -1,0 +1,18 @@
+{
+  "name": "vuepress-blog",
+  "version": "2.0.0",
+  "description": "使用vuepress搭建个人博客",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "Chaoyue Qi",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.19",
+    "@vuepress/theme-default": "^2.0.0-rc.74",
+    "sass-embedded": "^1.83.4",
+    "vuepress": "^2.0.0-rc.19"
+  }
+}
